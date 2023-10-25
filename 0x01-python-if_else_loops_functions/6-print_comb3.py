@@ -8,5 +8,3 @@ for d in range(0, 10):
             print("{}{}".format(d, b))
         else:
             print("{}{}".format(d, b), end=", ")
-
-

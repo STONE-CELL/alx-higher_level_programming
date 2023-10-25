@@ -6,4 +6,3 @@ o = 0
 for d in range(ord('z'), ord('a') - 1, -1):
     print("{}".format(chr(d - o)), end="")
     o = 32 if o == 0 else 0
-

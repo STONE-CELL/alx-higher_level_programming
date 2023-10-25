@@ -7,4 +7,3 @@ def remove_char_at(s, m):
     if m < 0:
         return (s)
     return (s[:m] + s[m+1:])
-

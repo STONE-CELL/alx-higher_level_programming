@@ -9,4 +9,3 @@ def uppercase(str):
             b = chr(ord(b) - 32)
         print("{}".format(b), end="")
     print("")
-
