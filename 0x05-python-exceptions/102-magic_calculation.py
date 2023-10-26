@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 def magic_calculation(a, b):
     result = 0
-    for o in range(1, 3):
+    for i in range(1, 3):
         try:
-            if o > a:
+            if i > a:
                 raise Exception('Too far')
-            result += a ** b / o
+            result += a ** b / i
         except Exception:
             result = b + a
             break
