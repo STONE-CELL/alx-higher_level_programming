@@ -1,13 +1,27 @@
 #!/usr/bin/python3
-
+    """Defines a square."""
 class Square:
     def __init__(self, size=0):
+        """Constructor.
 
+        Args:
+            size: Length of a side of square.
+
+        """
         self.size = size
 
     @property
     def size(self):
+        """Property for the length of a side of this square.
 
+
+        Args:
+            size: Length of a side of square.
+
+        Raises:
+            TypeError: If size is not an integer
+            ValueError: If size is less than 0
+        """
         return self.__size
 
     @size.setter
