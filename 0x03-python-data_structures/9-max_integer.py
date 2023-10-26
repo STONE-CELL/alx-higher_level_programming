@@ -13,4 +13,3 @@ def max_integer(my_list=[]):
             kio = my_list[o]
 
     return (kio)
-
