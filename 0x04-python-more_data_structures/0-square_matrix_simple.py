@@ -1,9 +1,3 @@
-#!/usr/bin/python3
+i#!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    new = matrix.copy()
-
-    for o in range(len(matrix)):
-        new[o] = list(map(lambda x: x**2, matrix[i]))
-
-    return (new)
-
+    return list(map(lambda submat: list(map(lambda e: e**2, submat)), matrix)
