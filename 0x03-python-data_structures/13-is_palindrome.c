@@ -56,7 +56,7 @@ int is_palindrome(listint_t **head)
 	for (o = 0; o < (s / 2) - 1; o++)
 		t = t->next;
 
-	if ((s % 2) == 0 && t->n != t->next->n)
+	if ((s % 2) == 0 && t->m != t->next->m)
 		return (0);
 
 	t = t->next->next;
@@ -66,7 +66,7 @@ int is_palindrome(listint_t **head)
 	t = *head;
 	while (r)
 	{
-		if (t->n != r->n)
+		if (t->m != r->m)
 			return (0);
 		t = t->next;
 		r = r->next;
